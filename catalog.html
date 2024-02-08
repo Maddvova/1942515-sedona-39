@@ -8,17 +8,17 @@
   <div class="main-wrapper">
     <header class="main-header">
       <nav class="navigation">
-      <a class="sedona-logo"><img src="#"></a>
+      <a class="sedona-logo"> <a href="#"> <img src="#">Логотип города Седона</a>
       <ul class="navigation-list">
-        <li class="navigation-item"><a class="navigation-link " href="index.html">Главная</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="index.html" >Главная</a></li>
         <li class="navigation-item"><a class="navigation-link" href="">О Седоне</a></li>
-        <li class="navigation-item"><a class="navigation-link navigation-link-current" href="">Гостиницы</a></li>
+        <li class="navigation-item"><a class="navigation-link navigation-link-current" href="#">Гостиницы</a></li>
       </ul>
       <ul class="navigation-list navigation-user">
-          <li class="navigation-item navigation-user-item"><a class="navigation-link navigation-user-link" href=""><span class="visually-hidden">Поиск</span></a></li>
-          <li class="navigation-item navigation-user-item"><a class="navigation-link navigation-user-link" href=""><span class="visually-hidden"> Лайки</span></a></li>
-          <li class="navigation-item navigation-user-item"><button class="sedona-button" type="button"></button></li>
+          <li class="navigation-item navigation-user-item"><a class="navigation-link navigation-user-link" href="#"></a></li>
+          <li class="navigation-item navigation-user-item"><a class="navigation-link navigation-user-link" href="#"> 12</a></li>
       </ul>
+          <a class="sedona-button" href="#">Хочу сюда!</a>
       </nav>
     </header>
     <main class="main-catalog">
@@ -33,20 +33,24 @@
         <form class="filters-form" action="https://echo.htmlacademy.ru">
           <fieldset class="fielters-fieldset">
             <legend class="sedona-legend">Инфрастртура:</legend>
-            <label ><input class="filters-input" type="checkbox" name="pool" checked>Бассейн</label>
-            <label ><input class="filters-input" type="checkbox" name="parking" checked>Парковка</label>
-            <label ><input class="filters-input" type="checkbox" name="wifi">Wi-Fi</label>
+            <ul class="filter-list">
+             <li class="filters-item"><label ><input class="filters-input" type="checkbox" name="pool" checked>Бассейн</label></li>
+             <li class="filters-item"><label ><input class="filters-input" type="checkbox" name="parking" checked>Парковка</label></li>
+             <li class="filters-item"><label ><input class="filters-input" type="checkbox" name="wifi">Wi-Fi</label></li>
+            </ul>
           </fieldset>
             <fieldset class="fielters-fieldset">
                 <legend class="sedona-legend">Тип жилья:</legend>
-                <label ><input class="filters-input" type="radio" name="livin-type" value="hotel" checked>Гостиница</label>
-                <label ><input class="filters-input" type="radio" name="livin-type" value="motel">Мотель</label>
-                <label ><input class="filters-input" type="radio" name="livin-type" value="apartments">Апартаменты</label>
+                <ul class="filter-list">
+                  <li class="filters-item"><label ><input class="filters-input" type="radio" name="livin-type" value="hotel" checked>Гостиница</label></li>
+                  <li class="filters-item"><label ><input class="filters-input" type="radio" name="livin-type" value="motel">Мотель</label></li>
+                  <li class="filters-item"><label ><input class="filters-input" type="radio" name="livin-type" value="apartments">Апартаменты</label></li>
+              </ul>
               </fieldset>
             <div class="price-range">
             <p class="price-range-text">Стоимость, ₽:</p>
-            <input type="text">
-            <input type="text">
+            от<input type="text" value="0">
+            до<input type="text" value="9000">
            </div>
           <div class="filters-item">
             <button class="button" type="button">Применить</button>
@@ -136,7 +140,7 @@
         <li class="social-item"><a class="social-link" href=""></a></li>
       </ul>
       <a class="footer-tel" href="+7(812)812-12-12">+7 (812) 812-12-12</a>
-      <a class="footer-logo" href="htmlacademy.ru"></a>
+      <a class="footer-logo" href="htmlacademy.ru">Логотип htmlacademy</a>
     </footer>
     </div>
       </body>
