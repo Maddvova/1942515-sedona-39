@@ -23,8 +23,7 @@
     </header>
     <main class="main-catalog">
       <section class="sedona-filters">
-        <h2 class="visually-hidden">Фильтры для поиска гостиницы</h2>
-        <p class="sedona-title big-text">Гостиницы Седоны</p>
+        <h1 class="sedona-title big-text">Гостиницы Седоны</h1>
         <ul class="broadcramps">
           <li class="broadcramps-item"><a class="broadcramps-link" href="index.html"></a></li>
           <li class="broadcramps-item"><a ></a></li>
@@ -47,15 +46,13 @@
                   <li class="filters-item"><label ><input class="filters-input" type="radio" name="livin-type" value="apartments">Апартаменты</label></li>
               </ul>
               </fieldset>
-            <div class="price-range">
+            <fieldset class="price-range">
             <p class="price-range-text">Стоимость, ₽:</p>
             от<input type="text" value="0">
             до<input type="text" value="9000">
-           </div>
-          <div class="filters-item">
+            </fieldset>
             <button class="button" type="button">Применить</button>
             <button class="button transporent-button" type="reset">Сбросить</button>
-          </div>
       </form>
       </section>
       <section class="filters-result">
@@ -64,53 +61,57 @@
         <select class="select-price" aria-label="Сортировка">
           <option class="advantages-text" value="cheap">Сначала дешевые</option>
         </select>
-          <ul class="sorting-button-list">
-            <li class="sorting-button-item"><a class="sorting-button-link" href=""></a></li>
-            <li class="sorting-button-item"><a class="sorting-button-link" href=""></a></li>
-            <li class="sorting-button-item"><a class="sorting-button-link" href=""></a></li>
+          <ul class="view-list">
+            <li class="view-item view-item-active"><a class="view-link" href=""></a></li>
+            <li class="view-item"><a class="view-link" href=""></a></li>
+            <li class="view-item"><a class="sorting-button-link" href=""></a></li>
           </ul>
       </section>
       <section class="hotels-catalog">
         <h2 class="visually-hidden">Каталог гостиниц</h2>
         <ul class="hotels-catalog-list">
           <li class="hotels-catalog-item">
-            <img src="" alt="Гостиница  Amara Resort & Spa.">
-            <p class="advantages-title">Amara Resort & Spa</p>
+            <a class="hotels-catalog-img" href=""><img src="" alt="Гостиница  Amara Resort & Spa."></a>
+            <a class="advantages-title">Amara Resort & Spa</a>
             <p class="advantages-text">Гостиница</p>
             <p class="advantages-text">От 4000 ₽</p>
             <a class="button" href="">подробнее</a>
             <button class="button" type="button">в избранное</button>
-            <p class="hotels-catalog-star"></p>
+            <span class="visually-hidden">Отель четыре звезды</span>
+            <p class="four-stars"></p>
             <p class="hotels-catalog-reit mini-text">Рейтинг: 8,5</p>
           </li>
           <li class="hotels-catalog-item">
-            <img src="" alt="Гостиница  Villas at Poco Diablo.">
-            <p class="advantages-title">Villas at Poco Diablo</p>
+            <a class="hotels-catalog-img" href=""><img src="" alt="Гостиница  Villas at Poco Diablo."></a>
+            <a class="advantages-title">Villas at Poco Diablo</a>
             <p class="advantages-text">Гостиница</p>
             <p class="advantages-text">От 5000 ₽</p>
             <a class="button" href="">подробнее</a>
             <button class="button current-button" type="button">в избранном</button>
-            <p class="hotels-catalog-star"></p>
+            <span class="visually-hidden">Отель четыре звезды</span>
+            <p class="four-stars"></p>
             <p class="hotels-catalog-reit mini-text">Рейтинг: 9,2</p>
           </li>
           <li class="hotels-catalog-item">
-            <img src="" alt="Гостиница  Desert Quail Inn.">
-            <p class="advantages-title">Desert Quail Inn</p>
+            <a class="hotels-catalog-img" href=""><img src="" alt="Гостиница  Desert Quail Inn."></a>
+            <a class="advantages-title">Desert Quail Inn</a>
             <p class="advantages-text">Гостиница</p>
             <p class="advantages-text">От 2500 ₽</p>
             <a class="button" href="">подробнее</a>
             <button class="button" type="button">в избранное</button>
-            <p class="hotels-catalog-star"></p>
+            <span class="visually-hidden">Отель три звезды</span>
+            <p class="three-stars"></p>
             <p class="hotels-catalog-reit mini-text">Рейтинг: 6,9</p>
           </li>
           <li class="hotels-catalog-item">
-            <img src="" alt="Гостиница  GreenTree Inn.">
-            <p class="advantages-title">GreenTree Inn</p>
+            <a class="hotels-catalog-img" href=""><img src="" alt="Гостиница  GreenTree Inn."></a>
+            <a class="advantages-title">GreenTree Inn</a>
             <p class="advantages-text">Гостиница</p>
             <p class="advantages-text">От 1500 ₽</p>
             <a class="button" href="">подробнее</a>
             <button class="button" type="button">в избранное</button>
-            <p class="hotels-catalog-star"></p>
+            <span class="visually-hidden">Отель две звезды</span>
+            <p class="two-stars"></p>
             <p class="hotels-catalog-reit mini-text">Рейтинг: 5,0</p>
           </li>
         </ul>
