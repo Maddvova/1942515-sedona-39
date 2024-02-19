@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style:bold;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family:"PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color:  #000000;
+    background-color: #ffffff;
+}
+
+.white-text{
+  color:#ffffff;
+}
+
+.dark-blue{
+  background-color:#82b3d3;
+}
+
+.light-blue{
+  background-color:rgba(131, 179, 211, 0.2);
+}
+
+.main-header {
+    color: #242424;
+    background-color: #ffffff;
+}
+
+.navigation-link {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+   color:  #000000;
+   text-align: center;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+.sedona-description{
+  background-image: url("../images/index/jpg-welcome-sedona-backhround.jpg");
+  background-repeat: no-repeat;
+  background-color:  #82b3d3;
+  width: 1200px;
+  height: 485px;
+}
+
+.sedona-title{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.sedona-text{
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+}
+
+.advantages{
+  text-align: center;
+}
+
+.advantages-title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantages-text{
+  line-height: 21px;
+}
+
+.subscribtion{
+  background-color: #82b3d3;
+  background-image: url("../images/index/Subscribe.jpg");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 415;
+}
+
+.sedona-button{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.phone{
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.sedona-filters{
+  background-image: url("../images/catalog/filtr.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.big-text{
+  font-size: 60px;
+  text-align: left;
+}
+
+.broadcramps-link{
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.sedona-legend{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.filters-item{
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.price-range{
+  font-weight: 700;
+}
+
+.button{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hotels-catalog-reit{
+  background-color: #f2f2f2;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.pagination-item{
+  background-color:#82b3d3;
+}
+
+.current-item{
+  background-color: #f2f2f2;
+}
+
+.pagination-link{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.current-pagination-link{
+  color: #000000;
+}
