@@ -24,13 +24,14 @@
     </header>
     <main class="main-catalog">
       <section class="sedona-filters">
-        <h1 class="sedona-title big-text sub-text">Гостиницы Седоны</h1>
+        <form class="filters-form" action="https://echo.htmlacademy.ru">
+          <h1 class="sedona-title big-text sub-text">Гостиницы Седоны</h1>
         <ul class="breadcrumps">
           <li class="breadcrumps-item"><a class="broadcramps-link" href="index.html"></a></li>
           <li class="breadcrumps-item"><a ></a></li>
           <li class="breadcrumps-item advantages-text mini-text"> <a class="broadcramps-link sub-text">Гостиницы</a></li>
         </ul>
-        <form class="filters-form" action="https://echo.htmlacademy.ru">
+        <div class="filters-wrapper">
           <fieldset class="fielters-fieldset">
             <legend class="sedona-legend sub-text">Инфрастртура:</legend>
             <ul class="filter-list">
@@ -51,10 +52,12 @@
             <p class="price-range-title sub-text">Стоимость, ₽:</p>
             <span class="price-range-text"> от</span><input class="price-range-input" type="text" value="0">
             <span class="price-range-text"> до</span><input class="price-range-input" type="text" value="9000">
-            </fieldset>
             <button class="button" type="button">Применить</button>
             <button class="button transporent-button" type="reset">Сбросить</button>
-      </form>
+          </fieldset>
+
+          </div>
+          </form>
       </section>
       <section class="filters-result">
         <h2 class="visually-hidden">Результат сортировки</h2>
@@ -73,44 +76,57 @@
         <h2 class="visually-hidden">Каталог гостиниц</h2>
         <ul class="hotels-catalog-list">
           <li class="hotels-catalog-item">
-            <a class="hotels-catalog-img" href=""><img src="images/catalog/amara.jpg" width="300" height="212" alt="Ущелье со звёздным небом на фоне."></a>
+            <a class="hotels-catalog-img" href=""><img class="hotel-image" src="images/catalog/amara.jpg" width="300" height="212" alt="Ущелье со звёздным небом на фоне."></a>
+            <div class="hotels-catalog-wrapper">
             <a class="advantages-title">Amara Resort & Spa</a>
+
             <p class="advantages-text">Гостиница</p>
-            <p class="advantages-text">От 4000 ₽</p>
-            <a class="button " href="">подробнее</a>
-            <button class="button" type="button">в избранное</button>
-            <p class="four-stars"><span class="visually-hidden">Четрые звезды</span></p>
+            <p class="advantages-text price-text">От 4000 ₽</p>
+            <a class="button  hotel-button" href="">подробнее</a>
+            <button class="button hotel-button dark" type="button">в избранное</button>
+            <p class="stars"><span class="visually-hidden">Четрые звезды</span></p>
             <p class="hotels-catalog-reit mini-text">Рейтинг: 8,5</p>
+          </div>
           </li>
           <li class="hotels-catalog-item">
-            <a class="hotels-catalog-img" href=""><img src="images/catalog/villas-diablo.jpg" width="300" height="212" alt="Горный пейзаж с радугой на фоне"></a>
+            <a class="hotels-catalog-img" href=""><img class="hotel-image" src="images/catalog/villas-diablo.jpg" width="300" height="212" alt="Горный пейзаж с радугой на фоне"></a>
+            <div class="hotels-catalog-wrapper">
             <a class="advantages-title">Villas at Poco Diablo</a>
+
             <p class="advantages-text">Гостиница</p>
-            <p class="advantages-text">От 5000 ₽</p>
-            <a class="button" href="">подробнее</a>
-            <button class="button current-button" type="button">в избранном</button>
-            <p class="four-stars"><span class="visually-hidden"> Четыре звезы</span></p>
+            <p class="advantages-text price-text">От 5000 ₽</p>
+            <a class="button hotel-button" href="">подробнее</a>
+            <button class="button hotel-button current-button" type="button">в избранном</button>
+            <p class="stars"><span class="visually-hidden"> Четыре звезы</span></p>
             <p class="hotels-catalog-reit mini-text">Рейтинг: 9,2</p>
+          </div>
+          </li>
           </li>
           <li class="hotels-catalog-item">
-            <a class="hotels-catalog-img" href=""><img src="images/catalog/desert.jpg" width="300" height="212" alt="Горы среди зелёного леса"></a>
+            <a class="hotels-catalog-img" href=""><img class="hotel-image" src="images/catalog/desert.jpg" width="300" height="212" alt="Горы среди зелёного леса"></a>
+            <div class="hotels-catalog-wrapper">
             <a class="advantages-title">Desert Quail Inn</a>
+
             <p class="advantages-text">Гостиница</p>
-            <p class="advantages-text">От 2500 ₽</p>
-            <a class="button" href="">подробнее</a>
-            <button class="button" type="button">в избранное</button>
-            <p class="three-stars"><span class="visually-hidden">Отель три звезды</span></p>
+            <p class="advantages-text price-text">От 2500 ₽</p>
+            <a class="button hotel-button" href="">подробнее</a>
+            <button class="button hotel-button dark" type="button">в избранное</button>
+            <p class="stars"><span class="visually-hidden">Отель три звезды</span></p>
             <p class="hotels-catalog-reit mini-text">Рейтинг: 6,9</p>
+          </div>
           </li>
           <li class="hotels-catalog-item">
-            <a class="hotels-catalog-img" href=""><img src="images/catalog/greenTree.jpg" width="300" height="212" alt="Ночь,горы,звёздное небо."></a>
+            <a class="hotels-catalog-img" href=""><img class="hotel-image" src="images/catalog/greenTree.jpg" width="300" height="212" alt="Ночь,горы,звёздное небо."></a>
+            <div class="hotels-catalog-wrapper">
             <a class="advantages-title">GreenTree Inn</a>
+
             <p class="advantages-text">Гостиница</p>
-            <p class="advantages-text">От 1500 ₽</p>
-            <a class="button" href="">подробнее</a>
-            <button class="button" type="button">в избранное</button>
-            <p class="two-stars"><span class="visually-hidden">Отель две звезды</span></p>
+            <p class="advantages-text price-text">От 1500 ₽</p>
+            <a class="button hotel-button" href="">подробнее</a>
+            <button class="button hotel-button dark" type="button">в избранное</button>
+            <p class="stars"><span class="visually-hidden">Отель две звезды</span></p>
             <p class="hotels-catalog-reit mini-text">Рейтинг: 5,0</p>
+          </div>
           </li>
         </ul>
         <ul class="pagination-list">
