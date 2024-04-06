@@ -24,19 +24,19 @@
     </header>
     <main class="main-catalog">
       <section class="sedona-filters">
-        <form class="filters-form" action="https://echo.htmlacademy.ru">
-          <h1 class="sedona-title big-text sub-text">Гостиницы Седоны</h1>
+        <h1 class="sedona-title big-text sub-text">Гостиницы Седоны</h1>
         <ul class="breadcrumps">
           <li class="breadcrumps-item"><a class="broadcrumps-link" href="index.html"><svg class="breacrumps-svg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="13" height="13" fill="none"><path d="m6.5.5-6 5.8v6.2h12V6.3L6.5.5Zm5 11h-10V6.7l5-4.8 5 4.8v4.8Z"/><path fill="#fff" d="M4.5 10.5h1V8h2v2.5h1V7h-4v3.5Z"/></svg></a></li>
           <li class="breadcrumps-item advantages-text mini-text"> <a class="breadcrumps-link sub-text">Гостиницы</a></li>
         </ul>
+        <form class="filters-form" action="https://echo.htmlacademy.ru">
         <div class="filters-wrapper">
           <fieldset class="fielters-fieldset">
             <legend class="sedona-legend sub-text">Инфрастртура:</legend>
             <ul class="filter-list">
-             <li class="filters-item"><label ><input class="filters-input" type="checkbox" name="pool" checked>Бассейн</label></li>
-             <li class="filters-item"><label ><input class="filters-input" type="checkbox" name="parking" checked>Парковка</label></li>
-             <li class="filters-item"><label ><input class="filters-input" type="checkbox" name="wifi">Wi-Fi</label></li>
+             <li class="filters-item"><label for="pool"><input class="filters-input" type="checkbox" name="pool" id="pool" checked>Бассейн</label></li>
+             <li class="filters-item"><label for="parking" ><input class="filters-input" type="checkbox" name="parking" id="parking" checked>Парковка</label></li>
+             <li class="filters-item"><label for="wifi"><input class="filters-input" type="checkbox" name="wifi" id="wifi">Wi-Fi</label></li>
             </ul>
           </fieldset>
             <fieldset class="fielters-fieldset">
@@ -47,20 +47,34 @@
                   <li class="filters-item"><label ><input class="filters-input" type="radio" name="livin-type" value="apartments">Апартаменты</label></li>
               </ul>
               </fieldset>
+        </div>
             <fieldset class="price-range">
             <p class="price-range-title sub-text">Стоимость, ₽:</p>
-            <span class="price-range-text"> от</span><input class="price-range-input" type="text" value="0">
-            <span class="price-range-text"> до</span><input class="price-range-input" type="text" value="9000">
-            <button class="button" type="button">Применить</button>
-            <button class="button transporent-button" type="reset">Сбросить</button>
+            <div class="price-range-wrapper">
+            <label class="price-label">
+            <span class="price-range-text"> от</span><input class="price-range-input input-min" type="number" value="0">
+            </label>
+            <label class="price-label">
+            <span class="price-range-text"> до</span><input class="price-range-input input-max" type="number" value="9000">
+            </label>
+          </div>
+          <div class="range-scale">
+            <div class="range-bar">
+              <button type="button" class="range-button min-button"></button>
+              <button type="button" class="range-button max-button"></button>
+            </div>
+          </div>
           </fieldset>
+          <div class="filter-buttons-wrapper">
+            <button class="button filter-button" type="button">Применить</button>
+            <button class="button filter-button transporent-button" type="reset">Сбросить</button>
           </div>
           </form>
       </section>
       <section class="filters-result">
         <h2 class="visually-hidden">Результат сортировки</h2>
         <p class="sedona-title">Найдено гостиниц: 38</p>
-        <select class="select-price" aria-label="Сортировка">
+        <select class="select-price"  aria-label="Сортировка">
           <option class="option-aria" value="cheap">Сначала дешевые </option>
         </select>
           <ul class="view-list">
